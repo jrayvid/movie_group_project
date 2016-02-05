@@ -13,3 +13,89 @@
  *= require_tree .
  *= require_self
  */
+.statichome  {
+	background-image: url("/assets/director_red.jpg");
+	background-size: 100%;
+	color: white;
+	background-repeat: no-repeat;
+}
+.welcome {
+	url("Pics/movie_screen2.jpg");
+	/*background-repeat: no-repeat;*/
+	background-size: cover;
+	/*margin-top: 50px;*/
+	/*overflow: hidden;*/
+}
+
+.img {
+	margin-left: 380px;
+
+}
+
+
+
+
+#circle {
+	width: 300px;
+	height: 300px;
+	background: black;
+	border-radius: 50px;
+	border: solid white 5px;
+	margin-top: 123px;
+	padding: 0px;
+	text-align: center;
+	float: left;
+	position: fixed;
+}
+#circle2 {
+	width: 300px;
+	height: 300px;
+	background: black;
+	border-radius: 50px;
+	border: solid white 5px;
+	margin-top: 123px;
+	margin-left: 1110px;
+	padding: 0px;
+	float: left;
+	text-align: center;
+	position: fixed;
+}
+
+h1 {
+	padding: 50px 0px 25px 0px;
+
+}
+h1.center {
+	text-align: center;
+	color: black;
+	padding-top: 5%;
+}
+h1.mid {
+	text-align: center;
+	color: white;
+	padding-top: 5%;
+	margin-top: -81px;
+}
+a:link {
+	text-decoration: none;
+	color: blue;
+
+}
+a:active {
+	color: blue;
+}
+a:visited {
+	color: blue;
+}
+
+a:hover {
+	color: green;
+}
+ul, li {
+	display: inline;
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+
