@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'sessions/new'
+
   get 'static/home'
 
   get 'static/about'
@@ -10,6 +12,7 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'static#home'
+  resources :sessions
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

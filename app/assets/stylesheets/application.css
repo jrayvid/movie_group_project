@@ -13,23 +13,27 @@
  *= require_tree .
  *= require_self
  */
-body {
+.statichome  {
 	background-image: url("/assets/director_red.jpg");
 	background-size: 100%;
 	color: white;
 	background-repeat: no-repeat;
 }
 .welcome {
-	background: url("Pics/movie_screen2.jpg");
+	url("Pics/movie_screen2.jpg");
 	/*background-repeat: no-repeat;*/
 	background-size: cover;
 	/*margin-top: 50px;*/
 	/*overflow: hidden;*/
-	
-
-	
-	
 }
+
+.img {
+	margin-left: 380px;
+
+}
+
+
+
 
 #circle {
 	width: 300px;
@@ -85,11 +89,13 @@ a:visited {
 }
 
 a:hover {
-	color: red;
+	color: green;
 }
 ul, li {
 	display: inline;
 	text-align: center;
 	margin-top: 50px;
 }
+
+
 
