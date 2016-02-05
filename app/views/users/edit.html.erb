@@ -1,0 +1,24 @@
+<h1>Edit Your Account</h1>
+
+<div id="editform">
+<%= form_for @user do |f| %>
+  <%= f.label :Firstname %>
+  <%= f.text_field :fname %><br><br>
+  <%= f.label :Lastname %>
+  <%= f.text_field :lname %><br><br>
+  <%= f.label :City %>
+  <%= f.text_field :city %><br><br>
+  <%= f.label :State %>
+  <%= f.text_field :state %><br><br>
+  <%= f.label :Email %>
+  <%= f.text_field :email %><br><br>
+  <%= f.label :username %>
+  <%= f.text_field :username %><br><br>
+  <%= f.label :password %>
+  <%= f.password_field :password %>
+  <br><br>
+  <%= f.submit 'Edit'%>
+<% end %>
+</div>
+
+<%= link_to "Delete Account", user_path(user), method: :delete, data: { confirm: "Are you sure?" }%>
