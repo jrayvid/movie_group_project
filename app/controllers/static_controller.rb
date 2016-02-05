@@ -1,5 +1,6 @@
 class StaticController < ApplicationController
   def home
+
   end
 
   def about
@@ -8,4 +9,10 @@ class StaticController < ApplicationController
 
   def contact
   end
+  
+  def new
+  	@user = User.new
+  	
+  end
+
 end
