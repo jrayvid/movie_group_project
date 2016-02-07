@@ -15,13 +15,11 @@ class SessionsController < ApplicationController
   end
 
   def destroy
-  	if 
-      session.destroy
+  	if session.destroy
     else
       flash[:notice] = "Log Out Successful!"
       redirect_to '/'
     end
-
   end
 
 end

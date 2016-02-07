@@ -1,5 +1,5 @@
 <ul>
 	<li><%= link_to "Edit Your Account", edit_user_path(@user) %></li> | 
-	<li><%= link_to "Delete Your Account", user_path(current_user), method: :delete, data: { confirm: "ARE YOU SURE YOU WANT TO DELETE YOUR ACCOUNT?" } %></li> | 
-	<li><%= link_to "Log Out", logout_path %></li>
+	<li><%= link_to "Delete Your Account", user_path(@user), method: :delete, data: { confirm: "ARE YOU SURE YOU WANT TO DELETE YOUR ACCOUNT?" } %></li> | 
+	<li><%= link_to "Log Out", logout_path, method: :delete, data: { confirm: "ARE YOU SURE YOU WANT TO LOGOUT ?"}%></li>
 </ul>
