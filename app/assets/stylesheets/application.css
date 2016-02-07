@@ -14,9 +14,18 @@
  *= require_self
  */
 
+= require rails_bootstrap_forms
 
+#usersnew {
+	background-image: url("/assets/clapper.jpg");
+	background-size: 100%;
 
+	overflow: hidden;
+}
 
+#center {
+	position: center;
+}
 
 @media all and (max-width: 960px){   body{     background-color: black;   } 
 }
@@ -66,7 +75,7 @@
 
 .loginh3 {
 	font-family: 'chalkduster';
-
+	height: 30px;
 	font-size: 25px;
 	margin-bottom: 800px;
  /*   color: red;*/
@@ -74,7 +83,10 @@
     margin-top: 50px;
   }  
 
-
+.input1 {
+	height: 21px;
+	width: 164px;
+}
   
 
 
@@ -149,6 +161,10 @@ ul, li {
 .button1 {
 	margin-left: 666px;
     margin-top: -724px;
+    size: 20em;
+}
+.center {
+	text-align: center;
 }
 
 
