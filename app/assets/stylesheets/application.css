@@ -16,16 +16,13 @@
 
 = require rails_bootstrap_forms
 
-#usersnew {
-	background-image: url("/assets/clapper.jpg");
-	background-size: 100%;
 
-	overflow: hidden;
-}
 
-#center {
+
+
+/*#center {
 	position: center;
-}
+}*/
 
 @media all and (max-width: 960px){   body{     background-color: black;   } 
 }
@@ -37,6 +34,10 @@
 	margin-left: 40px;
 	
 }
+h2.a {
+	font-size: 30px;
+	color: green;
+}
 
 
 .statichome  {
@@ -45,6 +46,13 @@
 	color: white;
 	background-repeat: no-repeat;
 	overflow: hidden;
+}
+
+.usersnew {
+	background-image: url("/assets/signup.jpg");
+	
+	background-size: 100%;
+	/*overflow: hidden;*/
 }
 .welcome {
 	url("Pics/movie_screen2.jpg");
@@ -137,6 +145,9 @@ a:link {
 	text-decoration: none;
 	color: blue;
 
+}
+h3.s {
+	text-align: center;
 }
 a:active {
 	color: blue;
