@@ -13,11 +13,29 @@
  *= require_tree .
  *= require_self
  */
+
+
+
+
+
+@media all and (max-width: 960px){   body{     background-color: black;   } 
+}
+.wrapperlogin {
+	overflow: hidden;
+	background-color: gray;
+	color: white;
+	margin-top: 30px;
+	margin-left: 40px;
+	
+}
+
+
 .statichome  {
 	background-image: url("/assets/director_red.jpg");
 	background-size: 100%;
 	color: white;
 	background-repeat: no-repeat;
+	overflow: hidden;
 }
 .welcome {
 	url("Pics/movie_screen2.jpg");
@@ -27,10 +45,37 @@
 	/*overflow: hidden;*/
 }
 
-.img {
-	margin-left: 380px;
+.login {
+	font-family: 'chalkduster';
+	font-size: 30px;
+	margin-left: 655px;
+    margin-bottom: 272px;
+    /*color: red;*/
+    margin-top: -315px;
+}
+
+
+.loginh2 {
+	font-family: 'chalkduster';
+	font-size: 25px;
+	/*color: red;*/
+    margin-top: -221px;
+    margin-left: 494px;
 
 }
+
+.loginh3 {
+	font-family: 'chalkduster';
+
+	font-size: 25px;
+	margin-bottom: 800px;
+ /*   color: red;*/
+    margin-left: 498px;
+    margin-top: 50px;
+  }  
+
+
+  
 
 
 
@@ -58,7 +103,7 @@
 	padding: 0px;
 	float: left;
 	text-align: center;
-	position: fixed;
+	/*position: fixed;*/
 }
 
 h1 {
@@ -95,6 +140,15 @@ ul, li {
 	display: inline;
 	text-align: center;
 	margin-top: 50px;
+}
+.clapper {
+	padding-left: 402px;
+	
+}
+
+.button1 {
+	margin-left: 666px;
+    margin-top: -724px;
 }
 
 

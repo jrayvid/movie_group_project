@@ -1,19 +1,32 @@
-<body>
+<body class="wrapperlogin">
 
-<img src= "/assets/clapper.png">
 
-	<div class="img"> 
-			<h2>Log In</h2>
-		
+	<div class="clapper">
+		<img src= "/assets/clapper.png">
+	</div>
+
+	
+	<h2 class= "login">Log In</h2>
+ 
+
 
 	<%= form_tag login_path do%>
+	<div class="loginh2">
 		<%= label_tag :username %>
-		<%= text_field_tag :username %>
+		<%= text_field_tag :username %> 
+	</div>
+
+	<div class="loginh3">
 		<%= label_tag :password %>
 		<%= text_field_tag :password %>
+	</div>
+		
+	<div class= "button1">
 		<%= submit_tag "Log In" %>
-	<% end -%>
+	</div>
 	
-</div>
+	<% end %>
+	
+
 
 </body>
