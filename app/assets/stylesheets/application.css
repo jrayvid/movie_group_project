@@ -28,7 +28,9 @@
 }
 
 .img {
-	margin-left: 380px;
+	display: inline-block;
+	/*float: left;*/
+	/*margin-left: 380px;*/
 
 }
 
