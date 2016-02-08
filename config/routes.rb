@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
 
+  
+
   root 'static#home'
   get '/about' => 'static#about'
   get '/contact' => 'static#contact'
+
 
   get '/login' => 'sessions#new'
   post '/login' => 'sessions#create'
