@@ -1,3 +1,4 @@
+<%= render 'layouts/navigation'%>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
 <body class="wrapperlogin">
@@ -10,6 +11,7 @@
 	
 	<h2 class= "login">LOG IN</h2>
  
+
 
 
 	<%= form_tag login_path do%>
@@ -26,11 +28,8 @@
 
 	<div class= "button1">
 		<%= submit_tag "Log In" %>
-	</div>
-		
-	
-	<% end %>
-	
+
+	<% end %>	
+</div>
 
 
-</body>
