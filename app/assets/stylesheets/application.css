@@ -119,11 +119,11 @@ h2.a {
 	border-radius: 50px;
 	border: solid white 5px;
 	margin-top: 123px;
-	margin-left: 918px;
+	margin-left: 1124px;
 	padding: 0px;
 	float: left;
 	text-align: center;
-	/*position: fixed;*/
+	position: fixed;
 }
 
 h1 {
