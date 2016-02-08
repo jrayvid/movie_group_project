@@ -9,15 +9,15 @@ class SessionsController < ApplicationController
     session[:user_id] = @user.id
   		redirect_to @user
   	else
+      flash[:notice] = "Log In Unsuccessful!"
   		redirect_to login_path
   	end
   end
 
   def destroy
-  	 session.destroy
-    redirect_to '/'
+  	  session.destroy
+      flash[:notice] = "Log Out Successful!"
+      redirect_to '/'
   end
-
-
 
 end

@@ -31,9 +31,10 @@ class UsersController < ApplicationController
   end
 
   def destroy
-  	@user = User.find(params[:id])
-  	@user.delete
-  	redirect_to :back
+    	@user = User.find(params[:id])
+      @user.delete
+      flash[:notice] = "Account Deleted!"
+    	redirect_to '/' 
   end
 
   private

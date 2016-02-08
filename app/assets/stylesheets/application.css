@@ -21,19 +21,12 @@
 }
 .welcome {
 	url("Pics/movie_screen2.jpg");
-	/*background-repeat: no-repeat;*/
 	background-size: cover;
-	/*margin-top: 50px;*/
-	/*overflow: hidden;*/
 }
 
 .img {
-	margin-left: 380px;
-
+	display: inline-block;
 }
-
-
-
 
 #circle {
 	width: 300px;
@@ -63,27 +56,30 @@
 
 h1 {
 	padding: 50px 0px 25px 0px;
-
 }
+
 h1.center {
 	text-align: center;
 	color: black;
 	padding-top: 5%;
 }
+
 h1.mid {
 	text-align: center;
-	color: white;
-	padding-top: 5%;
-	margin-top: -81px;
+	color: blue;
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
 }
+
 a:link {
 	text-decoration: none;
 	color: blue;
-
 }
+
 a:active {
 	color: blue;
 }
+
 a:visited {
 	color: blue;
 }
@@ -91,11 +87,40 @@ a:visited {
 a:hover {
 	color: green;
 }
+
 ul, li {
 	display: inline;
 	text-align: center;
 	margin-top: 50px;
 }
+
+#supf{
+	text-align: center;
+	font-size: xx-large;
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
+	background-color: grey;
+    opacity: 0.8;
+}
+
+.signupbod{
+	background-image: url('/assets/movie_set.jpg');
+	background-size: cover;
+}
+
+#signupform{
+	width: 132px;
+	height: 540px;
+	color: white;
+	text-align: center;
+	background-color: grey;
+	opacity: 0.8;
+}
+
+
+
+
+
 
 
 

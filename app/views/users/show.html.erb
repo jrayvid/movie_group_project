@@ -1,14 +1,13 @@
 <h1>Welcome <%= @user.fname %></h1>
-<div>
 
+<div>
 First Name:<%= @user.fname %>
 Last Name:<%= @user.lname %>
 City:<%= @user.city %>
 State:<%= @user.state %>
 Email:<%= @user.email %>
 Username:<%= @user.username %>
-
 </div>
 
-<%= link_to "Edit Your Account", edit_user_path(@user) %>
-
+<br><br>
+<%= render 'layouts/usernavigation' %>
