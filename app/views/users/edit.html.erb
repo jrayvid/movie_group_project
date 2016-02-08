@@ -16,7 +16,9 @@
   <%= f.text_field :username %><br><br>
   <%= f.label :password %><br>
   <%= f.password_field :password %>
-  <br><br>
+  <%= f.label :HeadShot %>
+  <%= f.file_field :avatar%>
+  
   <%= f.submit 'Edit'%>
 <% end %>
 </div>
