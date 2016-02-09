@@ -1,25 +1,31 @@
-<h1>Edit Your Account</h1>
+<%= render 'layouts/navigation' %>
 
-<div id="editform">
+<h3 class="center">EDIT BAY</h3>
+<body class="editpage">
+<div class="editform">
 <%= form_for @user do |f| %>
-  <%= f.label :Firstname %><br>
-  <%= f.text_field :fname %><br><br>
-  <%= f.label :Lastname %><br>
-  <%= f.text_field :lname %><br><br>
+  <%= f.label :'First_Name' %><br>
+  <%= f.text_field :fname %><br>
+  <%= f.label :'Last_Name' %><br>
+  <%= f.text_field :lname %><br>
   <%= f.label :City %><br>
-  <%= f.text_field :city %><br><br>
+  <%= f.text_field :city %><br>
   <%= f.label :State %><br>
-  <%= f.text_field :state %><br><br>
+  <%= f.text_field :state %><br>
   <%= f.label :Email %><br>
-  <%= f.text_field :email %><br><br>
+  <%= f.text_field :email %><br>
   <%= f.label :username %><br>
-  <%= f.text_field :username %><br><br>
+  <%= f.text_field :username %><br>
   <%= f.label :password %><br>
-  <%= f.password_field :password %>
+  <%= f.password_field :password %><br>
   <%= f.label :HeadShot %>
   <%= f.file_field :avatar%>
   
   <%= f.submit 'Edit'%>
 <% end %>
 </div>
+
 <%= render 'layouts/usernavigation' %>
+
+</body>
+
