@@ -1,117 +1,10 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
-
-= require rails_bootstrap_forms
-
-
-
-
-
-/*#center {
-	position: center;
-}*/
-
-@media all and (max-width: 960px){   body{     background-color: black;   } 
-}
-.wrapperlogin {
-	overflow: hidden;
-	background-color: gray;
-	color: white;
-	margin-top: 30px;
-	margin-left: 40px;
-	
-}
-h2.a {
-	font-size: 30px;
-	color: green;
-}
-
-
+/*This is where the home page is styled*/
 .statichome  {
 	background-image: url("/assets/director_red.jpg");
 	background-size: 100%;
 	color: white;
 	background-repeat: no-repeat;
 	overflow: hidden;
-}
-
-.editpage {
-	background-image: url("/assets/editmess2.jpg");
-	background-size: 100%;
-}
-
-.editform{
-	/*text-align: center;*/
-	font-size: 25px;
-	margin-top: -248px;
-	padding: 0px 0px 0px 0px;
-	/*background-color: grey;*/
-    opacity: 0.8;
-}
-h3.center {
-	text-align: center;
-	font-size: 30px;
-	margin-top: 200px;
-}
-
-.usersnew {
-	background-image: url("/assets/signup.jpg");
-	
-	background-size: 100%;
-	/*overflow: hidden;*/
-}
-.welcome {
-	url("Pics/movie_screen2.jpg");
-	background-size: cover;
-}
-
-
-.login {
-	font-family: 'chalkduster';
-	font-size: 30px;
-	margin-left: 655px;
-    margin-bottom: 272px;
-    /*color: red;*/
-    margin-top: -315px;
-}
-
-
-.loginh2 {
-	font-family: 'chalkduster';
-	font-size: 25px;
-	/*color: red;*/
-    margin-top: -221px;
-    margin-left: 494px;
-    /*color: white;*/
-
-}
-
-.loginh3 {
-	font-family: 'chalkduster';
-	height: 30px;
-	font-size: 25px;
-	margin-bottom: 800px;
-    /*color: red;*/
-    margin-left: 498px;
-    margin-top: 50px;
-  }  
-
-.input1 {
-	height: 21px;
-	width: 164px;
 }
 
 #circle {
@@ -126,6 +19,7 @@ h3.center {
 	float: left;
 	position: fixed;
 }
+
 #circle2 {
 	width: 300px;
 	height: 300px;
@@ -133,29 +27,97 @@ h3.center {
 	border-radius: 50px;
 	border: solid white 5px;
 	margin-top: 123px;
-	margin-left: 1124px;
+	margin-left: 952px;
 	padding: 0px;
 	float: left;
 	text-align: center;
 	position: fixed;
 }
 
+/*This is where the edit page is stlyed*/
+.center {
+	text-align: center;
+}
+
+.editpage {
+	background-image: url("/assets/editmess2.jpg");
+	background-size: 100%;
+}
+
+.editform{
+	height: 550px;
+	width: 200px;
+	font-size: 25px;
+	padding: 0px 0px 0px 0px;
+    opacity: 0.8;
+}
+
+#footer{
+	text-align: center;
+}
+
+.usersnew {
+	background-image: url("/assets/signup.jpg");
+	background-size: 100%;
+}
+
+.welcome {
+	url("Pics/movie_screen2.jpg");
+	background-size: cover;
+}
+
+/*This is where the Login page is styled*/
+.wrapperlogin {
+	margin: 0 auto;
+	background-color: gray;
+	color: white;
+	margin-top: 30px;
+	
+}
+
+.clapper {
+	padding-left: 402px;	
+}
+
+.login {
+	font-family: 'chalkduster';
+	font-size: 30px;
+	margin-left: 655px;
+    margin-bottom: 272px;
+    margin-top: -315px;
+}
+
+.loginh2 {
+	font-family: 'chalkduster';
+	font-size: 25px;
+    margin-top: -221px;
+    margin-left: 494px;
+}
+
+.loginh3 {
+	font-family: 'chalkduster';
+	height: 30px;
+	font-size: 25px;
+	margin-bottom: 800px;
+    margin-left: 498px;
+    margin-top: 50px;
+ }
+
+ .button1 {
+	margin-left: 666px;
+    margin-top: -720px;
+    size: 20em;
+}  
+/*The login page ends here*/
+
+.input1 {
+	height: 21px;
+	width: 164px;
+}
+
 h1 {
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
-}
-
-h1.center {
-	text-align: center;
-	color: black;
-	padding-top: 5%;
-}
-
-h1.mid {
-	text-align: center;
-	color: blue;
-	margin: 0 auto;
-	padding: 0px 0px 0px 0px;
 }
 
 a:link {
@@ -180,19 +142,7 @@ ul, li {
 	text-align: center;
 	margin-top: 50px;
 }
-.clapper {
-	padding-left: 402px;
-	
-}
 
-.button1 {
-	margin-left: 666px;
-    margin-top: -720px;
-    size: 20em;
-}
-.center {
-	text-align: center;
-}
 
 #supf{
 	text-align: center;
@@ -229,6 +179,7 @@ ul, li {
 	height: 400px;
 }
 
-
-
-
+#headshot{
+	margin: 0 auto;
+	float: right;
+}
