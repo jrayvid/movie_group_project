@@ -37,9 +37,14 @@ class UsersController < ApplicationController
     	redirect_to '/' 
   end
 
+  def search
+  @users = User.where(roll:params[:query])
+  end
+
+
   private
   def user_params
-  params.require(:user).permit(:fname, :lname, :city, :state, :email, :username, :password, :avatar)
+  params.require(:user).permit(:fname, :lname, :city, :state, :email, :username, :password, :roll, :avatar)
   end
 
 end
