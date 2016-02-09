@@ -48,6 +48,25 @@ h2.a {
 	overflow: hidden;
 }
 
+.editpage {
+	background-image: url("/assets/editmess2.jpg");
+	background-size: 100%;
+}
+
+.editform{
+	/*text-align: center;*/
+	font-size: 25px;
+	margin-top: -248px;
+	padding: 0px 0px 0px 0px;
+	/*background-color: grey;*/
+    opacity: 0.8;
+}
+h3.center {
+	text-align: center;
+	font-size: 30px;
+	margin-top: 200px;
+}
+
 .usersnew {
 	background-image: url("/assets/signup.jpg");
 	
@@ -167,7 +186,7 @@ ul, li {
 
 .button1 {
 	margin-left: 666px;
-    margin-top: -724px;
+    margin-top: -720px;
     size: 20em;
 }
 .center {

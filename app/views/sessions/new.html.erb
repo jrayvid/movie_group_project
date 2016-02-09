@@ -1,4 +1,5 @@
 <%= render 'layouts/navigation'%>
+<h2> <%= flash[:notice] if flash[:notice] %> </h2>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
 <body class="wrapperlogin">
@@ -17,19 +18,21 @@
 	<%= form_tag login_path do%>
 	<div class="loginh2">
 		<%= label_tag :username %>
-		<%= text_field_tag :username, style:'color:#000000' %> 
+		<%= text_field_tag :username %> 
 	</div>
 
 	<div class="loginh3">
 		<%= label_tag :password %>
-		<%= text_field_tag :password, style:'color:#000000' %>
+		<%= password_field_tag :password %>
 	</div>
 
 
 	<div class= "button1">
-		<%= submit_tag "Log In" %>
+		<%= submit_tag "ACTION" %>
 
 	<% end %>	
 </div>
+
+</
 
 
