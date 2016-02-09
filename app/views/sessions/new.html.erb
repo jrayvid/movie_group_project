@@ -1,9 +1,6 @@
 <%= render 'layouts/navigation'%>
 <h2><%= flash[:notice] if flash[:notice] %></h2>
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-
 <body class="wrapperlogin">
-
 
 	<div class="clapper">
 		<img src= "/assets/clapper.png">
@@ -12,9 +9,6 @@
 	
 	<h2 class= "login">LOG IN</h2>
  
-
-
-
 	<%= form_tag login_path do%>
 	<div class="loginh2">
 		<%= label_tag :username %>
@@ -32,5 +26,5 @@
 
 	<% end %>	
 </div>
-
+</body>
 

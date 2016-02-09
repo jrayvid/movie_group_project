@@ -3,22 +3,22 @@
 <%= render 'layouts/navigation' %>
 <h1>Welcome <%= @user.fname %></h1>
 <br>
+<div id="headshot">
+<%= image_tag @user.avatar.url :medium %>
+</div>
 <div>
 First Name:<%= @user.fname %><br><br>
 Last Name:<%= @user.lname %><br><br>
 City:<%= @user.city %><br><br>
 State:<%= @user.state %><br><br>
 Email:<%= @user.email %><br><br>
-Username:<%= @user.username %>
-
-<%= image_tag @user.avatar.url :medium %>
+Username:<%= @user.username %><br><br>
+Role:<%= @user.roll %>
 </div>
 
-<div id="headshot">
-	
-</div>
-
-<br><br>
+<br>
+<div id="footer">
 <%= render 'layouts/usernavigation' %>
+</div>
 </div>
 </body>
