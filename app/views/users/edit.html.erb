@@ -1,4 +1,4 @@
-<h1>Edit Your Account</h1>
+<h1>Edit Bay</h1>
 
 <div id="editform">
 <%= form_for @user do |f| %>
@@ -15,7 +15,9 @@
   <%= f.label :username %><br>
   <%= f.text_field :username %><br><br>
   <%= f.label :password %><br>
-  <%= f.password_field :password %>
+  <%= f.password_field :password %><br><br>
+  <%= f.label :"Industry Role" %><br>
+  <%= f.select(:roll, [['Actor'], ['Model'], ['Voice'], ['Director'], ['Writer'], ['Producer']], :class => "drop-down") %>
   <br><br>
   <%= f.submit 'Edit'%>
 <% end %>

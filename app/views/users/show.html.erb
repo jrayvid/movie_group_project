@@ -1,13 +1,22 @@
+<body class="profilebod">
+<div id="profilepage">
+<%= render 'layouts/navigation' %>
 <h1>Welcome <%= @user.fname %></h1>
-
+<br>
 <div>
-First Name:<%= @user.fname %>
-Last Name:<%= @user.lname %>
-City:<%= @user.city %>
-State:<%= @user.state %>
-Email:<%= @user.email %>
+First Name:<%= @user.fname %><br><br>
+Last Name:<%= @user.lname %><br><br>
+City:<%= @user.city %><br><br>
+State:<%= @user.state %><br><br>
+Email:<%= @user.email %><br><br>
 Username:<%= @user.username %>
+</div>
+
+<div id="headshot">
+	
 </div>
 
 <br><br>
 <%= render 'layouts/usernavigation' %>
+</div>
+</body>

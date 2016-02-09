@@ -2,6 +2,12 @@ Rails.application.routes.draw do
 
   
 
+  get 'posts/show'
+
+  get 'posts/new'
+
+  get 'posts/edit'
+
   root 'static#home'
   get '/about' => 'static#about'
   get '/contact' => 'static#contact'

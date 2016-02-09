@@ -122,7 +122,8 @@ h2.a {
 }
 
 h1 {
-	padding: 50px 0px 25px 0px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 }
 
 h1.center {
@@ -196,10 +197,18 @@ ul, li {
 	background-color: grey;
 	opacity: 0.8;
 }
+/*This is where the profile page is styled*/
+.profilebod{
+	background-image: url('/assets/movie_screen2.jpg');
+	background-size: cover;
+}
 
-
-
-
+#profilepage{
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 700px;
+	height: 400px;
+}
 
 
 
