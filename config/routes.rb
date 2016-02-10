@@ -18,8 +18,10 @@ Rails.application.routes.draw do
   get '/logout' => 'sessions#destroy'
   delete '/logout' => 'sessions#destroy'
 
+
   get '/search_page' => 'users#search_page'
   get '/search' => 'users#search'
+
 
   # post 'users/new' => 'user#show'
   

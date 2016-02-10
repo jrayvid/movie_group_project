@@ -6,6 +6,38 @@
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
+#circle {
+	width: 300px;
+	height: 300px;
+	background: black;
+	border-radius: 50px;
+	border: solid white 5px;
+	margin-top: 123px;
+	padding: 0px;
+	text-align: center;
+	float: left;
+	position: fixed;
+}
+#circle2 {
+	width: 300px;
+	height: 300px;
+	background: black;
+	border-radius: 50px;
+	border: solid white 5px;
+	margin-top: 123px;
+	margin-left: 1120px;
+	padding: 0px;
+	float: left;
+	text-align: center;
+	position: fixed;
+}
+
+	
+/*this is where the static home page ends*/
+
+
+/*edit page starts*/
+ 
 
 #circle {
 	width: 300px;
@@ -39,6 +71,7 @@
 	text-align: center;
 }
 
+
 .editpage {
 	background-image: url("/assets/editmess2.jpg");
 	background-size: 100%;
@@ -52,6 +85,9 @@
     opacity: 0.8;
 }
 
+
+/*edit page ends*/
+
 #footer{
 	text-align: center;
 }
@@ -64,6 +100,20 @@
 .welcome {
 	url("Pics/movie_screen2.jpg");
 	background-size: cover;
+}
+
+
+/*login page starts*/
+.clapper {
+	padding-left: 402px;
+}
+.wrapperlogin {
+	overflow: hidden;
+	background-color: gray;
+	color: white;
+	margin-top: 30px;
+	margin-left: 40px;
+	
 }
 
 /*This is where the Login page is styled*/
@@ -114,6 +164,9 @@
 	height: 21px;
 	width: 164px;
 }
+/* this is where the log-in page ends */
+
+
 
 h1 {
 	padding: 0px 0px 0px 0px;
@@ -142,7 +195,6 @@ ul, li {
 	text-align: center;
 	margin-top: 50px;
 }
-
 
 #supf{
 	text-align: center;
@@ -178,6 +230,20 @@ ul, li {
 	width: 700px;
 	height: 400px;
 }
+
+
+#headshot {
+	margin: 0 auto;
+	float: right;
+}
+#headshot1 {
+	
+}
+
+
+/*profile page ends*/
+
+/*this is where the search styling starts*/
 
 #headshot{
 	margin: 0 auto;
