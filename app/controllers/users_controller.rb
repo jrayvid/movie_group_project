@@ -38,9 +38,13 @@ class UsersController < ApplicationController
   end
 
   def search
-  @users = User.where(roll:params[:query])
-  end
 
+  end
+   
+  def search_page
+    @users = User.where(roll: params[:query])
+    render "search"
+  end
 
   private
   def user_params

@@ -3,16 +3,9 @@
 <%= render 'layouts/navigation' %>
 <h1>Welcome <%= @user.fname %></h1>
 <br>
-	
-
 	<div id="headshot">
 	<%= image_tag @user.avatar.url :medium %>
 	</div>	
-
-	<div id="headshot1">
-	<%= image_tag @user.avatar.url :Large %>
-	</div>	
-	
 <div>
 First Name:<%= @user.fname %><br><br>
 Last Name:<%= @user.lname %><br><br>
@@ -23,8 +16,11 @@ Username <%= @user.username %><br><br>
 Role: <%= @user.roll %> 
 </div>
 
+<br>
+<div id="footer">
 <%= render 'layouts/usernavigation' %>	
 </div>
+
 </body>
 
 
