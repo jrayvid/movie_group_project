@@ -15,7 +15,9 @@
 <% @users.each do |u|%>
 <%= u.fname %>
 <%= u.lname %>
-<%= image_tag u.avatar.url :thumb %>
+<div class="image">
+<%= image_tag u.avatar.url :thumb %> 
+</div>
 <% end %>
 <%end%>
 </div>
